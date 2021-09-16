@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,black, rgb(14, 199, 54), blue);
+}
+.form-container{
+    width: 300px;
+    padding: 10px;
+    background-color:rgb(5, 5, 146);
+    border-radius: 10px;
+}
+.form-group{
+    padding: 10px;
+
+}
+.form-control{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn{
+    width: 100%;
+    padding: 12px;
+    background-color: yellow;
+    font-size: 17px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+::placeholder{
+    color: darkblue;
+}
+.two-input{
+    display: flex;
+}
+.ml{
+    margin-left: 15px;
+}
+.no-resize{
+    resize: none;
+}
+input[type="password"]:focus{
+    background-color: blueviolet;
+}
